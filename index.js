@@ -18,9 +18,9 @@ app.get('/',(req,res)=> {
 })
 
 app.post('/login',(req,res) => {
-console.log(req.body)
+    res.send("Logged Successfully")
 })
 
 app.post('/registration',(req,res) => {
-    console.log(req.body)
+    res.send("Registration is successfully done")
     })
